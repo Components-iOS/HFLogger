@@ -1,0 +1,6 @@
+framework module Pods_HFLogger_Example {
+  umbrella header "Pods-HFLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

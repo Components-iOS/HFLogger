@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086BB231D685D87B1DAB7C2EFE26B830 /* HFLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AA97D821D4E1EA97B9296A164F798C1B /* HFLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C3FAC60C200F00C2F2ADCF2D959675D /* HFLogBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D83628C16D1BC9024C1D3A8DBA4C19 /* HFLogBeaver.swift */; };
+		11E592600D8436CBD05869DBC77C2DE0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F0A27B4B03972ED2520A79F14D3BA /* Extensions.swift */; };
+		1608E7B7C4F4E86949E09E03FDD518B7 /* Pods-HFLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18F4E9576A844965C0343582201B /* Pods-HFLogger_Example-dummy.m */; };
+		17F3177251E043B8AF14337BA48D6699 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFAEFF0317633B47642EA871C1819D2 /* BaseDestination.swift */; };
+		1FAF8181204EF3827A05664072BBB614 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434573D81323DFA69BF0E1C08DB2A03 /* SwiftyBeaver.swift */; };
+		2C137D452D7618919235B8BBB2265180 /* HFLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDDF39EFEF101EEB140D7368090CB70 /* HFLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F2861084E95541AD003FFC04F79236 /* FilterValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A3F835B7839C26A0813783BD4A6BEF /* FilterValidator.swift */; };
+		4CC2CCC95AC7BB00AFB68DA5DFFE43EC /* HFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FE5E5EB29A608B868AD0B98FF00A70 /* HFLogger.m */; };
+		4EC6EB671E1446612C1DFB0D6B3A436B /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B491FB34207E9E4BA39CA58CC74017A /* GoogleCloudDestination.swift */; };
+		7238B23985B83672FB3581815CC34561 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982D05C9A993119A2C12445911B142F /* Base64.swift */; };
+		7BDEC7A0C4739D750D7F77A5C6D5668A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		81FEF43E30D13253722F7478E538DA94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		88281DC506FCCE8776DA85064A76E3ED /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AC29B48E18E1849D9CE8D20524A53F /* AES256CBC.swift */; };
+		8FBBD234AA027BEFF10861C1B48F2F98 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C872A6A852A3184FF6CD98FF83E151A5 /* SwiftyBeaver-dummy.m */; };
+		91185D7B3BF6EBA3BE95B154B665AEB3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64ED15B7EBA3053FBF676026904A7E /* Filter.swift */; };
+		A13A5F765ADFFD461E0CF7E8BBFED9D1 /* Pods-HFLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6455243AA90E61CCE98F376BC0D0AFCF /* Pods-HFLogger_Tests-dummy.m */; };
+		A3B8EC6657A4B5139136745BC104B671 /* Pods-HFLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA12DE7E0BAD49161480BC5DA53A68 /* Pods-HFLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00B65080F48DEB89DABE5F548DB77A1 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FDB9D97E28F05C15037028EC62AE6E /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27552A0B3D596953A569D19266CCABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B32A3D7E29F759E3960406E1397A0C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C4DADE8B00BACA19F19C3407818AC5B1 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF833FBE0C14DE0F23861D094B5CA49 /* ConsoleDestination.swift */; };
+		C66E6B61AD5BD7F8C20507E90121B5E0 /* HFLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A931B1414768E290C6A900741B72E3 /* HFLogger-dummy.m */; };
+		E1FF5212B84BC710EB6298032C0CC26D /* Pods-HFLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 488B3D6F8AFCF4E8C2A4807E66D89EB3 /* Pods-HFLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F222EAC191BAF7F4A2F0E76C25834FA2 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB04878280EE73DCFE411961940484C /* SBPlatformDestination.swift */; };
+		F4EC7874CA91255EC0A09B0CD9A0853A /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73D821914D31B3B5E8C0659595C34C2 /* FileDestination.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46036E5E2B93D0B99B0744C5A98E134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF60F9A2C838CE1353284D8F7559901;
+			remoteInfo = "Pods-HFLogger_Example";
+		};
+		A013A551B1C5901A1AB94B9C3B097960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
+			remoteInfo = SwiftyBeaver;
+		};
+		B9B67D65FE5CFDFF8A269A6B26E48645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB3A0C96EE3BE60BB93C7F612F763C9;
+			remoteInfo = HFLogger;
+		};
+		FFD85B8721275A6BCCB980E90D249623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1740FECD5A74A42ADAE96F3A8246787A;
+			remoteInfo = SwiftyBeaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002FDD9272536A6B96B0FBBE08151DC1 /* Pods-HFLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		02A931B1414768E290C6A900741B72E3 /* HFLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFLogger-dummy.m"; sourceTree = "<group>"; };
+		0F72C66E515B4BB7A8CDF84EAA3BAF3E /* HFLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFLogger-Info.plist"; sourceTree = "<group>"; };
+		10FA9C36AF1B64FE74FDA7F13E4DD20D /* Pods-HFLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15FDB9D97E28F05C15037028EC62AE6E /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		1C1EB7684FD40F9FD1B458C87A8B13F4 /* Pods-HFLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1DFAEFF0317633B47642EA871C1819D2 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		3792D3ED493C99B36B312533F98FC176 /* HFLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFLogger.modulemap; sourceTree = "<group>"; };
+		3E2F0A27B4B03972ED2520A79F14D3BA /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		3EAE18F4E9576A844965C0343582201B /* Pods-HFLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		42AC29B48E18E1849D9CE8D20524A53F /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
+		488B3D6F8AFCF4E8C2A4807E66D89EB3 /* Pods-HFLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFLogger; path = HFLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E66E1B19CA398F3A4B5940331243B1F /* Pods-HFLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB04878280EE73DCFE411961940484C /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		6336805085E2503F54AF560BF9BF0FAA /* SwiftyBeaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.release.xcconfig; sourceTree = "<group>"; };
+		6455243AA90E61CCE98F376BC0D0AFCF /* Pods-HFLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731BEE577F8A1DF983CD241CFD13854E /* Pods-HFLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77A3F835B7839C26A0813783BD4A6BEF /* FilterValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterValidator.swift; path = Sources/FilterValidator.swift; sourceTree = "<group>"; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDDF39EFEF101EEB140D7368090CB70 /* HFLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLogger-umbrella.h"; sourceTree = "<group>"; };
+		809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFLogger_Example"; path = Pods_HFLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B458B3718FEB234BB66F577992C7F3 /* HFLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLogger.debug.xcconfig; sourceTree = "<group>"; };
+		8B129B9CA4051B7016C420D63DC6263A /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
+		8B491FB34207E9E4BA39CA58CC74017A /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		9434573D81323DFA69BF0E1C08DB2A03 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF833FBE0C14DE0F23861D094B5CA49 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFLogger_Tests"; path = Pods_HFLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14DDE8EBBFEC2197C6737B94D0AA026 /* SwiftyBeaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.debug.xcconfig; sourceTree = "<group>"; };
+		A1FE5E5EB29A608B868AD0B98FF00A70 /* HFLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFLogger.m; path = HFLogger/Classes/HFLogger.m; sourceTree = "<group>"; };
+		A73D821914D31B3B5E8C0659595C34C2 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
+		A8D83628C16D1BC9024C1D3A8DBA4C19 /* HFLogBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFLogBeaver.swift; path = HFLogger/Classes/HFLogBeaver.swift; sourceTree = "<group>"; };
+		A9B9867BF6A7035DFC5AC5697E7113E3 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		AA97D821D4E1EA97B9296A164F798C1B /* HFLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFLogger.h; path = HFLogger/Classes/HFLogger.h; sourceTree = "<group>"; };
+		B047745227C821A51F4C1C207C9E07F0 /* Pods-HFLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B88FF370166766611937BB9A5A6571A5 /* Pods-HFLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		B8ADE697C435C7D3CC94D713BDB6F363 /* Pods-HFLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFLogger_Example.modulemap"; sourceTree = "<group>"; };
+		C08D2C3550DCB803459AEA9D8B93F2C6 /* Pods-HFLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B594EE37A94EF3234F005945E57819 /* Pods-HFLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C25594343C7104EEBA788245B7C6D49A /* Pods-HFLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		C7CA12DE7E0BAD49161480BC5DA53A68 /* Pods-HFLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C872A6A852A3184FF6CD98FF83E151A5 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		CB533AA5E5319AD5C529D42A4BD26417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC64ED15B7EBA3053FBF676026904A7E /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		D451023DA5E355E22ED298484506D048 /* Pods-HFLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		D776A5227D6A4AC7A9D93BA52687FA4A /* HFLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D982D05C9A993119A2C12445911B142F /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		E3E1B37A15F6D70688549379C55A4636 /* HFLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLogger-prefix.pch"; sourceTree = "<group>"; };
+		EE5B25D4739D193385DB5844782FD733 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		F218DCB6B84A09A5305C3AE9D234EBD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6D143BE984213D0BDF1BC8B2BD2DF83 /* Pods-HFLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCED07E7AB5294AC30E5837FFEF2705E /* HFLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLogger.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF274CFD82287A0366181F12BCF2D02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27552A0B3D596953A569D19266CCABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD25CBA94C6D06C994EF92E50A545B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32A3D7E29F759E3960406E1397A0C0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1B68A887990348767DE0B6C4591917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDEC7A0C4739D750D7F77A5C6D5668A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E539BB88568E01650F06D7473355EE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FEF43E30D13253722F7478E538DA94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BE60A746FFE5396EAD774E82E47E78 /* Pods-HFLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8ADE697C435C7D3CC94D713BDB6F363 /* Pods-HFLogger_Example.modulemap */,
+				F6D143BE984213D0BDF1BC8B2BD2DF83 /* Pods-HFLogger_Example-acknowledgements.markdown */,
+				B047745227C821A51F4C1C207C9E07F0 /* Pods-HFLogger_Example-acknowledgements.plist */,
+				3EAE18F4E9576A844965C0343582201B /* Pods-HFLogger_Example-dummy.m */,
+				002FDD9272536A6B96B0FBBE08151DC1 /* Pods-HFLogger_Example-frameworks.sh */,
+				D451023DA5E355E22ED298484506D048 /* Pods-HFLogger_Example-Info.plist */,
+				488B3D6F8AFCF4E8C2A4807E66D89EB3 /* Pods-HFLogger_Example-umbrella.h */,
+				5E66E1B19CA398F3A4B5940331243B1F /* Pods-HFLogger_Example.debug.xcconfig */,
+				1C1EB7684FD40F9FD1B458C87A8B13F4 /* Pods-HFLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-HFLogger_Example";
+			path = "Target Support Files/Pods-HFLogger_Example";
+			sourceTree = "<group>";
+		};
+		290332D96F5C0CAC3CF78D3017C3EAC5 /* HFLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A8D83628C16D1BC9024C1D3A8DBA4C19 /* HFLogBeaver.swift */,
+				AA97D821D4E1EA97B9296A164F798C1B /* HFLogger.h */,
+				A1FE5E5EB29A608B868AD0B98FF00A70 /* HFLogger.m */,
+				32B6742DFB343FB0D7489F7E3554D9A1 /* Pod */,
+				A2EA897A055BDA4649E3BB777E475D1B /* Support Files */,
+			);
+			name = HFLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32B6742DFB343FB0D7489F7E3554D9A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D776A5227D6A4AC7A9D93BA52687FA4A /* HFLogger.podspec */,
+				F218DCB6B84A09A5305C3AE9D234EBD6 /* LICENSE */,
+				CB533AA5E5319AD5C529D42A4BD26417 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4282CBDB41224EE35F125BEC26B6BA00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE5B25D4739D193385DB5844782FD733 /* SwiftyBeaver.modulemap */,
+				C872A6A852A3184FF6CD98FF83E151A5 /* SwiftyBeaver-dummy.m */,
+				8B129B9CA4051B7016C420D63DC6263A /* SwiftyBeaver-Info.plist */,
+				A9B9867BF6A7035DFC5AC5697E7113E3 /* SwiftyBeaver-prefix.pch */,
+				15FDB9D97E28F05C15037028EC62AE6E /* SwiftyBeaver-umbrella.h */,
+				A14DDE8EBBFEC2197C6737B94D0AA026 /* SwiftyBeaver.debug.xcconfig */,
+				6336805085E2503F54AF560BF9BF0FAA /* SwiftyBeaver.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67CC8B7DA0CE97B4E6DD1FE98F70421F /* Pods-HFLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B88FF370166766611937BB9A5A6571A5 /* Pods-HFLogger_Tests.modulemap */,
+				C1B594EE37A94EF3234F005945E57819 /* Pods-HFLogger_Tests-acknowledgements.markdown */,
+				10FA9C36AF1B64FE74FDA7F13E4DD20D /* Pods-HFLogger_Tests-acknowledgements.plist */,
+				6455243AA90E61CCE98F376BC0D0AFCF /* Pods-HFLogger_Tests-dummy.m */,
+				C25594343C7104EEBA788245B7C6D49A /* Pods-HFLogger_Tests-Info.plist */,
+				C7CA12DE7E0BAD49161480BC5DA53A68 /* Pods-HFLogger_Tests-umbrella.h */,
+				C08D2C3550DCB803459AEA9D8B93F2C6 /* Pods-HFLogger_Tests.debug.xcconfig */,
+				731BEE577F8A1DF983CD241CFD13854E /* Pods-HFLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-HFLogger_Tests";
+			path = "Target Support Files/Pods-HFLogger_Tests";
+			sourceTree = "<group>";
+		};
+		A2209692D551F27E9FE4C6E19EBEDBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */,
+				809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */,
+				A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */,
+				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EA897A055BDA4649E3BB777E475D1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3792D3ED493C99B36B312533F98FC176 /* HFLogger.modulemap */,
+				02A931B1414768E290C6A900741B72E3 /* HFLogger-dummy.m */,
+				0F72C66E515B4BB7A8CDF84EAA3BAF3E /* HFLogger-Info.plist */,
+				E3E1B37A15F6D70688549379C55A4636 /* HFLogger-prefix.pch */,
+				7EDDF39EFEF101EEB140D7368090CB70 /* HFLogger-umbrella.h */,
+				84B458B3718FEB234BB66F577992C7F3 /* HFLogger.debug.xcconfig */,
+				FCED07E7AB5294AC30E5837FFEF2705E /* HFLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HFLogger";
+			sourceTree = "<group>";
+		};
+		A8D03095BFEA8C27F89848B9E8B4385F /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				42AC29B48E18E1849D9CE8D20524A53F /* AES256CBC.swift */,
+				D982D05C9A993119A2C12445911B142F /* Base64.swift */,
+				1DFAEFF0317633B47642EA871C1819D2 /* BaseDestination.swift */,
+				9FF833FBE0C14DE0F23861D094B5CA49 /* ConsoleDestination.swift */,
+				3E2F0A27B4B03972ED2520A79F14D3BA /* Extensions.swift */,
+				A73D821914D31B3B5E8C0659595C34C2 /* FileDestination.swift */,
+				CC64ED15B7EBA3053FBF676026904A7E /* Filter.swift */,
+				77A3F835B7839C26A0813783BD4A6BEF /* FilterValidator.swift */,
+				8B491FB34207E9E4BA39CA58CC74017A /* GoogleCloudDestination.swift */,
+				5EB04878280EE73DCFE411961940484C /* SBPlatformDestination.swift */,
+				9434573D81323DFA69BF0E1C08DB2A03 /* SwiftyBeaver.swift */,
+				4282CBDB41224EE35F125BEC26B6BA00 /* Support Files */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EE104E6D241C876F8B3630A0CC2238C2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CF94ED953BB548C8547288A67F0A9245 /* Pods */,
+				A2209692D551F27E9FE4C6E19EBEDBFE /* Products */,
+				EA273755CE0D358CE6D44734D120C940 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF94ED953BB548C8547288A67F0A9245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D03095BFEA8C27F89848B9E8B4385F /* SwiftyBeaver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA273755CE0D358CE6D44734D120C940 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BE60A746FFE5396EAD774E82E47E78 /* Pods-HFLogger_Example */,
+				67CC8B7DA0CE97B4E6DD1FE98F70421F /* Pods-HFLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE104E6D241C876F8B3630A0CC2238C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				290332D96F5C0CAC3CF78D3017C3EAC5 /* HFLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		609A951F244DB7A8C46689B6071A75D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00B65080F48DEB89DABE5F548DB77A1 /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9063FC196FB634A6C8D682DDAF1089F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF5212B84BC710EB6298032C0CC26D /* Pods-HFLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07C0ED7F92446B0E6F39A9D27131EE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B8EC6657A4B5139136745BC104B671 /* Pods-HFLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21BFD8860EED721F67ADFABCD3BA563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086BB231D685D87B1DAB7C2EFE26B830 /* HFLogger.h in Headers */,
+				2C137D452D7618919235B8BBB2265180 /* HFLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAF2E72D6125D1C97D72A490E265F2C /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				609A951F244DB7A8C46689B6071A75D4 /* Headers */,
+				108D441A96B36F02F1A38F7F08654A0E /* Sources */,
+				6CD25CBA94C6D06C994EF92E50A545B1 /* Frameworks */,
+				0B174791C8181C441A759CB70FF7682C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DB3A0C96EE3BE60BB93C7F612F763C9 /* HFLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82D1940E737DD005666D5AD027C4714 /* Build configuration list for PBXNativeTarget "HFLogger" */;
+			buildPhases = (
+				F21BFD8860EED721F67ADFABCD3BA563 /* Headers */,
+				EFB26784DFE3FE8C8738B1749F72601C /* Sources */,
+				CD1B68A887990348767DE0B6C4591917 /* Frameworks */,
+				987DD76C620B2AD1815EDAA70C1FE1E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D085E7E3E12E9553A4B4915F8FDF030A /* PBXTargetDependency */,
+			);
+			name = HFLogger;
+			productName = HFLogger;
+			productReference = 547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADF60F9A2C838CE1353284D8F7559901 /* Pods-HFLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC52A3E04BA62ED076D14749BED5FBA /* Build configuration list for PBXNativeTarget "Pods-HFLogger_Example" */;
+			buildPhases = (
+				9063FC196FB634A6C8D682DDAF1089F8 /* Headers */,
+				70CA1594456149750C31318DAD44217B /* Sources */,
+				E539BB88568E01650F06D7473355EE60 /* Frameworks */,
+				778F30AF4CCE45A130F425E7D57378D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42915D88F6E4EF38D6DA4FE2C90C0B11 /* PBXTargetDependency */,
+				EDC59CEAFA067573AA82FD57E5424AF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HFLogger_Example";
+			productName = Pods_HFLogger_Example;
+			productReference = 809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D44CDEFCA3FC0A4AB8CBAE6E1CBEB9B1 /* Pods-HFLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B01ACEF118B3846FD8DA85758246AE /* Build configuration list for PBXNativeTarget "Pods-HFLogger_Tests" */;
+			buildPhases = (
+				F07C0ED7F92446B0E6F39A9D27131EE8 /* Headers */,
+				7FF0E7EF1AB42B8E196A7B5D39EAAAA7 /* Sources */,
+				0CF274CFD82287A0366181F12BCF2D02 /* Frameworks */,
+				7B5D86BA7B92B17D16EFB049B81BF1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43BB4367A605B212855CFB5D1FF741B /* PBXTargetDependency */,
+			);
+			name = "Pods-HFLogger_Tests";
+			productName = Pods_HFLogger_Tests;
+			productReference = A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A2209692D551F27E9FE4C6E19EBEDBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB3A0C96EE3BE60BB93C7F612F763C9 /* HFLogger */,
+				ADF60F9A2C838CE1353284D8F7559901 /* Pods-HFLogger_Example */,
+				D44CDEFCA3FC0A4AB8CBAE6E1CBEB9B1 /* Pods-HFLogger_Tests */,
+				1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B174791C8181C441A759CB70FF7682C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778F30AF4CCE45A130F425E7D57378D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5D86BA7B92B17D16EFB049B81BF1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987DD76C620B2AD1815EDAA70C1FE1E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108D441A96B36F02F1A38F7F08654A0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88281DC506FCCE8776DA85064A76E3ED /* AES256CBC.swift in Sources */,
+				7238B23985B83672FB3581815CC34561 /* Base64.swift in Sources */,
+				17F3177251E043B8AF14337BA48D6699 /* BaseDestination.swift in Sources */,
+				C4DADE8B00BACA19F19C3407818AC5B1 /* ConsoleDestination.swift in Sources */,
+				11E592600D8436CBD05869DBC77C2DE0 /* Extensions.swift in Sources */,
+				F4EC7874CA91255EC0A09B0CD9A0853A /* FileDestination.swift in Sources */,
+				91185D7B3BF6EBA3BE95B154B665AEB3 /* Filter.swift in Sources */,
+				36F2861084E95541AD003FFC04F79236 /* FilterValidator.swift in Sources */,
+				4EC6EB671E1446612C1DFB0D6B3A436B /* GoogleCloudDestination.swift in Sources */,
+				F222EAC191BAF7F4A2F0E76C25834FA2 /* SBPlatformDestination.swift in Sources */,
+				1FAF8181204EF3827A05664072BBB614 /* SwiftyBeaver.swift in Sources */,
+				8FBBD234AA027BEFF10861C1B48F2F98 /* SwiftyBeaver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CA1594456149750C31318DAD44217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1608E7B7C4F4E86949E09E03FDD518B7 /* Pods-HFLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF0E7EF1AB42B8E196A7B5D39EAAAA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13A5F765ADFFD461E0CF7E8BBFED9D1 /* Pods-HFLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB26784DFE3FE8C8738B1749F72601C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3FAC60C200F00C2F2ADCF2D959675D /* HFLogBeaver.swift in Sources */,
+				4CC2CCC95AC7BB00AFB68DA5DFFE43EC /* HFLogger.m in Sources */,
+				C66E6B61AD5BD7F8C20507E90121B5E0 /* HFLogger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42915D88F6E4EF38D6DA4FE2C90C0B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFLogger;
+			target = 8DB3A0C96EE3BE60BB93C7F612F763C9 /* HFLogger */;
+			targetProxy = B9B67D65FE5CFDFF8A269A6B26E48645 /* PBXContainerItemProxy */;
+		};
+		B43BB4367A605B212855CFB5D1FF741B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HFLogger_Example";
+			target = ADF60F9A2C838CE1353284D8F7559901 /* Pods-HFLogger_Example */;
+			targetProxy = 46036E5E2B93D0B99B0744C5A98E134A /* PBXContainerItemProxy */;
+		};
+		D085E7E3E12E9553A4B4915F8FDF030A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
+			targetProxy = A013A551B1C5901A1AB94B9C3B097960 /* PBXContainerItemProxy */;
+		};
+		EDC59CEAFA067573AA82FD57E5424AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 1740FECD5A74A42ADAE96F3A8246787A /* SwiftyBeaver */;
+			targetProxy = FFD85B8721275A6BCCB980E90D249623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B6AF61EFC967098E4CE22D8990A791C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B458B3718FEB234BB66F577992C7F3 /* HFLogger.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFLogger/HFLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFLogger/HFLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFLogger/HFLogger.modulemap";
+				PRODUCT_MODULE_NAME = HFLogger;
+				PRODUCT_NAME = HFLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D98971E85BFF2ABDD1CC17392A5FE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14DDE8EBBFEC2197C6737B94D0AA026 /* SwiftyBeaver.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		936541F79EC86483AC32BD011C357035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E66E1B19CA398F3A4B5940331243B1F /* Pods-HFLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFLogger_Example/Pods-HFLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFLogger_Example/Pods-HFLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B36E166A7799377D8E6009FD1C3B561C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08D2C3550DCB803459AEA9D8B93F2C6 /* Pods-HFLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFLogger_Tests/Pods-HFLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFLogger_Tests/Pods-HFLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9612C921735F2E3BB48B8F3D233C11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCED07E7AB5294AC30E5837FFEF2705E /* HFLogger.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFLogger/HFLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFLogger/HFLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFLogger/HFLogger.modulemap";
+				PRODUCT_MODULE_NAME = HFLogger;
+				PRODUCT_NAME = HFLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7615350CB8D2994D86624DCC450B1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731BEE577F8A1DF983CD241CFD13854E /* Pods-HFLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFLogger_Tests/Pods-HFLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFLogger_Tests/Pods-HFLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAC99D7BE482AD43661214D18E5073C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6336805085E2503F54AF560BF9BF0FAA /* SwiftyBeaver.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA7FDD0E426251BBBB2EA17D885C7676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1EB7684FD40F9FD1B458C87A8B13F4 /* Pods-HFLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFLogger_Example/Pods-HFLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFLogger_Example/Pods-HFLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B01ACEF118B3846FD8DA85758246AE /* Build configuration list for PBXNativeTarget "Pods-HFLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36E166A7799377D8E6009FD1C3B561C /* Debug */,
+				E7615350CB8D2994D86624DCC450B1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E82D1940E737DD005666D5AD027C4714 /* Build configuration list for PBXNativeTarget "HFLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AF61EFC967098E4CE22D8990A791C /* Debug */,
+				B9612C921735F2E3BB48B8F3D233C11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAF2E72D6125D1C97D72A490E265F2C /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D98971E85BFF2ABDD1CC17392A5FE30 /* Debug */,
+				EAC99D7BE482AD43661214D18E5073C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC52A3E04BA62ED076D14749BED5FBA /* Build configuration list for PBXNativeTarget "Pods-HFLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936541F79EC86483AC32BD011C357035 /* Debug */,
+				FA7FDD0E426251BBBB2EA17D885C7676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

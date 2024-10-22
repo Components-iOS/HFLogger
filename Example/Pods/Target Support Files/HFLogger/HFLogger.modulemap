@@ -1,0 +1,6 @@
+framework module HFLogger {
+  umbrella header "HFLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - HFLogger (0.1.0):
+    - SwiftyBeaver (= 1.9.5)
+  - SwiftyBeaver (1.9.5)
+
+DEPENDENCIES:
+  - HFLogger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyBeaver
+
+EXTERNAL SOURCES:
+  HFLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFLogger: 13c9d0e8bbab34d676a76268be9a31578087d67c
+  SwiftyBeaver: 84069991dd5dca07d7069100985badaca7f0ce82
+
+PODFILE CHECKSUM: 1beef5ee5e9753f143313f4f7ca1c2762c86616b
+
+COCOAPODS: 1.15.2
