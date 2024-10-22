@@ -12,7 +12,7 @@
     "liuhongfei": "hongfei_liu@bizconf.cn"
   },
   "source": {
-    "git": "https://github.com/liuhongfei/HFLogger.git",
+    "git": "git@github.com:Components-iOS/HFLogger.git",
     "tag": "0.1.0"
   },
   "platforms": {
