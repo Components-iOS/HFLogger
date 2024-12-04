@@ -79,7 +79,7 @@
 		3EAE18F4E9576A844965C0343582201B /* Pods-HFLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFLogger_Example-dummy.m"; sourceTree = "<group>"; };
 		42AC29B48E18E1849D9CE8D20524A53F /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
 		488B3D6F8AFCF4E8C2A4807E66D89EB3 /* Pods-HFLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFLogger; path = HFLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E66E1B19CA398F3A4B5940331243B1F /* Pods-HFLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5EB04878280EE73DCFE411961940484C /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
 		6336805085E2503F54AF560BF9BF0FAA /* SwiftyBeaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.release.xcconfig; sourceTree = "<group>"; };
@@ -87,16 +87,16 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		731BEE577F8A1DF983CD241CFD13854E /* Pods-HFLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77A3F835B7839C26A0813783BD4A6BEF /* FilterValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterValidator.swift; path = Sources/FilterValidator.swift; sourceTree = "<group>"; };
-		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDDF39EFEF101EEB140D7368090CB70 /* HFLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLogger-umbrella.h"; sourceTree = "<group>"; };
-		809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFLogger_Example"; path = Pods_HFLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809E46F9275E414A6BCBA76BE53F675F /* Pods_HFLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B458B3718FEB234BB66F577992C7F3 /* HFLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLogger.debug.xcconfig; sourceTree = "<group>"; };
 		8B129B9CA4051B7016C420D63DC6263A /* SwiftyBeaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyBeaver-Info.plist"; sourceTree = "<group>"; };
 		8B491FB34207E9E4BA39CA58CC74017A /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
 		9434573D81323DFA69BF0E1C08DB2A03 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF833FBE0C14DE0F23861D094B5CA49 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
-		A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFLogger_Tests"; path = Pods_HFLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C8F43576408C1F02F3C95BE10ED474 /* Pods_HFLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14DDE8EBBFEC2197C6737B94D0AA026 /* SwiftyBeaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.debug.xcconfig; sourceTree = "<group>"; };
 		A1FE5E5EB29A608B868AD0B98FF00A70 /* HFLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFLogger.m; path = HFLogger/Classes/HFLogger.m; sourceTree = "<group>"; };
 		A73D821914D31B3B5E8C0659595C34C2 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
@@ -111,14 +111,14 @@
 		C25594343C7104EEBA788245B7C6D49A /* Pods-HFLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Tests-Info.plist"; sourceTree = "<group>"; };
 		C7CA12DE7E0BAD49161480BC5DA53A68 /* Pods-HFLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C872A6A852A3184FF6CD98FF83E151A5 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
-		CB533AA5E5319AD5C529D42A4BD26417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB533AA5E5319AD5C529D42A4BD26417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC64ED15B7EBA3053FBF676026904A7E /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		D451023DA5E355E22ED298484506D048 /* Pods-HFLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLogger_Example-Info.plist"; sourceTree = "<group>"; };
-		D776A5227D6A4AC7A9D93BA52687FA4A /* HFLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D776A5227D6A4AC7A9D93BA52687FA4A /* HFLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HFLogger.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D982D05C9A993119A2C12445911B142F /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
 		E3E1B37A15F6D70688549379C55A4636 /* HFLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLogger-prefix.pch"; sourceTree = "<group>"; };
 		EE5B25D4739D193385DB5844782FD733 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
-		F218DCB6B84A09A5305C3AE9D234EBD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F218DCB6B84A09A5305C3AE9D234EBD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F6D143BE984213D0BDF1BC8B2BD2DF83 /* Pods-HFLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FCED07E7AB5294AC30E5837FFEF2705E /* HFLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLogger.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -241,10 +241,10 @@
 		A2209692D551F27E9FE4C6E19EBEDBFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */,
-				809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */,
-				A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */,
-				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */,
+				547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger.framework */,
+				809E46F9275E414A6BCBA76BE53F675F /* Pods_HFLogger_Example.framework */,
+				A0C8F43576408C1F02F3C95BE10ED474 /* Pods_HFLogger_Tests.framework */,
+				7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,7 +280,6 @@
 				9434573D81323DFA69BF0E1C08DB2A03 /* SwiftyBeaver.swift */,
 				4282CBDB41224EE35F125BEC26B6BA00 /* Support Files */,
 			);
-			name = SwiftyBeaver;
 			path = SwiftyBeaver;
 			sourceTree = "<group>";
 		};
@@ -383,7 +382,7 @@
 			);
 			name = SwiftyBeaver;
 			productName = SwiftyBeaver;
-			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver */;
+			productReference = 7A5F7001277980B8F3EEA75BCD346E53 /* SwiftyBeaver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8DB3A0C96EE3BE60BB93C7F612F763C9 /* HFLogger */ = {
@@ -402,7 +401,7 @@
 			);
 			name = HFLogger;
 			productName = HFLogger;
-			productReference = 547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger */;
+			productReference = 547B3ABA81A03D9A2F83D3E7BE38B76A /* HFLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ADF60F9A2C838CE1353284D8F7559901 /* Pods-HFLogger_Example */ = {
@@ -422,7 +421,7 @@
 			);
 			name = "Pods-HFLogger_Example";
 			productName = Pods_HFLogger_Example;
-			productReference = 809E46F9275E414A6BCBA76BE53F675F /* Pods-HFLogger_Example */;
+			productReference = 809E46F9275E414A6BCBA76BE53F675F /* Pods_HFLogger_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D44CDEFCA3FC0A4AB8CBAE6E1CBEB9B1 /* Pods-HFLogger_Tests */ = {
@@ -441,7 +440,7 @@
 			);
 			name = "Pods-HFLogger_Tests";
 			productName = Pods_HFLogger_Tests;
-			productReference = A0C8F43576408C1F02F3C95BE10ED474 /* Pods-HFLogger_Tests */;
+			productReference = A0C8F43576408C1F02F3C95BE10ED474 /* Pods_HFLogger_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -702,8 +701,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

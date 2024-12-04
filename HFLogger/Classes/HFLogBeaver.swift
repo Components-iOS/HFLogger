@@ -12,7 +12,8 @@ import SwiftyBeaver
     @objc public static let shared = HFLogBeaver()
     @objc public var logDirectory: String?
     private let log: SwiftyBeaver.Type = SwiftyBeaver.self
-    private let maxLogFiles = 7
+    private let maxLogFiles = 8
+    private var fileDestination: FileDestination?
     
     private override init() {
         super.init()
@@ -23,11 +24,19 @@ import SwiftyBeaver
         console.minLevel = .debug 
         log.addDestination(console)
         
+        // 默认日志目录
         self.logDirectory = logDirectory ?? "\(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.path)/Logs"
         createLogDirectory()
         
-        rotateLogs()
+        // 创建文件目标，只在这里添加一次
+        self.fileDestination = FileDestination()
+        if let fileDestination = self.fileDestination {
+            fileDestination.logFileURL = logFilePath()
+            log.addDestination(fileDestination)
+        }
         
+        // 定时旋转日志
+        rotateLogs()
         Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(rotateLogs), userInfo: nil, repeats: true)
     }
     
@@ -51,22 +60,11 @@ import SwiftyBeaver
             
             let logFiles = fileURLs.filter { $0.lastPathComponent.hasPrefix("app-") && $0.lastPathComponent.hasSuffix(".log") }
             
-            // 检查当天整点的日志文件是否存在
+            // 检查当天的日志文件路径并更新文件目标
             let currentLogFileURL = logFilePath()
-            let fileDestination = FileDestination()
-            fileDestination.logFileURL = currentLogFileURL
-            log.addDestination(fileDestination)
-            
-            /*
-             let logFileExists = logFiles.contains(currentLogFileURL)
-             
-             if !logFileExists {
-                 // 如果不存在，则创建新日志文件
-                 let fileDestination = FileDestination()
-                 fileDestination.logFileURL = currentLogFileURL
-                 log.addDestination(fileDestination)
-             }
-             */
+            if fileDestination?.logFileURL != currentLogFileURL {
+                fileDestination?.logFileURL = currentLogFileURL
+            }
 
             // 管理日志文件数量，确保不超过最大数量
             if logFiles.count >= maxLogFiles {
